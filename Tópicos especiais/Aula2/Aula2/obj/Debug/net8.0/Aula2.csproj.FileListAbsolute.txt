@@ -1,0 +1,14 @@
+C:\Users\MATHEUSNAVALSKIPEREI\Desktop\exemplo\Aula2\obj\Debug\net8.0\Aula2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MATHEUSNAVALSKIPEREI\Desktop\exemplo\Aula2\obj\Debug\net8.0\Aula2.AssemblyInfoInputs.cache
+C:\Users\MATHEUSNAVALSKIPEREI\Desktop\exemplo\Aula2\obj\Debug\net8.0\Aula2.AssemblyInfo.cs
+C:\Users\MATHEUSNAVALSKIPEREI\Desktop\exemplo\Aula2\obj\Debug\net8.0\Aula2.csproj.CoreCompileInputs.cache
+C:\Users\MATHEUSNAVALSKIPEREI\Desktop\exemplo\Aula2\bin\Debug\net8.0\Aula2.exe
+C:\Users\MATHEUSNAVALSKIPEREI\Desktop\exemplo\Aula2\bin\Debug\net8.0\Aula2.deps.json
+C:\Users\MATHEUSNAVALSKIPEREI\Desktop\exemplo\Aula2\bin\Debug\net8.0\Aula2.runtimeconfig.json
+C:\Users\MATHEUSNAVALSKIPEREI\Desktop\exemplo\Aula2\bin\Debug\net8.0\Aula2.dll
+C:\Users\MATHEUSNAVALSKIPEREI\Desktop\exemplo\Aula2\bin\Debug\net8.0\Aula2.pdb
+C:\Users\MATHEUSNAVALSKIPEREI\Desktop\exemplo\Aula2\obj\Debug\net8.0\Aula2.dll
+C:\Users\MATHEUSNAVALSKIPEREI\Desktop\exemplo\Aula2\obj\Debug\net8.0\refint\Aula2.dll
+C:\Users\MATHEUSNAVALSKIPEREI\Desktop\exemplo\Aula2\obj\Debug\net8.0\Aula2.pdb
+C:\Users\MATHEUSNAVALSKIPEREI\Desktop\exemplo\Aula2\obj\Debug\net8.0\Aula2.genruntimeconfig.cache
+C:\Users\MATHEUSNAVALSKIPEREI\Desktop\exemplo\Aula2\obj\Debug\net8.0\ref\Aula2.dll
