@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <style>
+            /*Estilos básicos para uma página*/
+            form{
+                max-width: 100%;
+                margin: auto;
+            }
+            fieldset{
+                border: 1px solid #ddd;
+                padding: 10px;
+                margin-bottom: 20px;
+            }
+            legend{
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            label{
+                display: block;
+                margin: 10px 0 5px;
+            }
+
+            input[type="text"],
+            input[type="email"],
+            input[type="password"],
+            input[type="tel"],
+            input[type="number"],
+            input[type="date"],
+            input[type="time"],
+            input[type="url"],
+            input[type="range"],
+            input[type="color"],
+            select,
+            textarea{
+                width: 98%;
+                padding: 8px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+            input[type="radio"],
+            input[type="checkbox"]{
+                margin-right: 5px;
+            }
+
+            button{
+                padding: 10px 15px;
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            button:hover{
+                background-color: #45a049;
+
+            }
+
+            .inline{
+                display: inline-block;
+                margin-right: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <div class="box_header" style="width: 200px; float: left;"><img src="img/depositphotos_397274946-stock-illustration-vector-glasses-isolated-white-background.jpg"></div>
+                <div class="box_header" style="width: 200px; float: right;">
+                    <p>
+                        Rua dos alfeneiros 215<br>
+                        Tel: (41) 2345678<br>
+                        <img src="img/depositphotos_397274946-stock-illustration-vector-glasses-isolated-white-background.jpg">
+                    </p>
+                </div>
+                <nav>
+                    <ol>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Quem Somos</a></li>
+                        <li><a href="#">Serviços e Preços</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ol>
+                </nav>
+        
+            </header>
+            <section>
+                <h1>Formulário</h1>
+
+                <!--Inicio do formulário semântico-->
+                <form action="#" method="POST">
+
+                    <!--Fieldset para agrupar as informações pessoais-->
+                    <fieldset>
+                        <legend>Informações Pessoais</legend>
+
+                        <!--Campo para o nome do usuário-->
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+
+                        <!--Campo para o email do usuário-->
+                        <label for="email">E-mail:</label>
+                        <input type="text" id="email" name="email" required>
+
+                        <!--Campo para o telefone do usuário-->
+                        <label for="telefone">Telefone:</label>
+                        <input type="text" id="telefone" name="telefone" required>
+
+                        <!--Campo para o senha do usuário-->
+                        <label for="senha">Senha:</label>
+                        <input type="password" id="senha" name="senha" required>
+
+                        <!--Campo para confirmar senha do usuário-->
+                        <label for="confirma_senha">Confirme sua senha:</label>
+                        <input type="password" id="confirma_senha" name="confirma_senha" required>
+                    </fieldset>
+
+                    <!--Fieldset para agrupar detalhes adicionais-->
+                    <fieldset>
+                        <legend>Detalhes adicionais</legend>
+
+                        <!--Campo para data de nascimento-->
+                        <label for="data_nascimento">Data de nascimento:</label>
+                        <input type="date" id="data_nascimento" name="data_nascimento">
+
+                        <!--Campo de horário preferido-->
+                        <label for="horario_preferido">Horário Preferido:</label>
+                        <input type="time" id="horario_preferido" name="horario_preferido">
+
+                        <!--Campo para selecionar um site favorito-->
+                        <label for="website">Sites favoritos:</label>
+                        <input type="url" id="website" name="website">
+
+                        <!--Campo para selecionar um valor em um intervalo-->
+                        <label for="range">Nível de satisafação (1 a 10)</label>
+                        <input type="range" name="range" min="1" max="10">
+
+                        <!--Campo para selecionar uma cor favorita-->
+                        <label for="cor">Cor favorita:</label>
+                        <input type="color" id="cor" name="cor" value="#000000">
+
+                        <!--Campo de texto longo-->
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="8"></textarea>
+                    </fieldset>
+
+
+                    <!--Fieldset para opções de seleção-->
+                    <fieldset>
+                        <legend>Preferências</legend>
+
+                        <!--Campo de seleção única (rádio)-->
+                        <div class="inline">
+                            <label>
+                                <input type="radio" name="contato_preferido" value="email" checked>Email
+                            </label>
+                        </div>
+                        <div class="inline">
+                            <label>
+                                <input type="radio" name="contato_preferido" value="telefone">Telefone
+                            </label>
+                        </div>
+
+                        <!--Campo de seleção múltipla (checkbox)-->
+                        <div class="inline">
+                            <label>
+                                <input type="checkbox" name="notificacoes" value="sms">Receber SMS
+                            </label>
+                        </div>
+                        <div class="inline">
+                            <label>
+                                <input type="checkbox" name="notificacoes" value="email">Receber E-mail
+                            </label>
+                        </div>
+
+                        <!--Campo de seleção de opções-->
+                        <label for="curso">Curso:</label>
+                        <select id="curso" name="curso" required>
+                            <option value="">Selecione o curso:</option>
+                            <option value="engenharia">Engenharia</option>
+                            <option value="arquitetura">Arquitetura</option>
+                            <option value="arquitetura">Design</option>
+                        </select>
+                    </fieldset>
+
+                    <!--Botão de envio de formulário-->
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+            <footer>
+                <p style="text-align: center;">Rua das Acácias, 123 Bairro Jardim Primavera São Paulo - SP, 04567-890 Brasil</p>
+            </footer>
+        </div>
+    </body>
+
+</html>
