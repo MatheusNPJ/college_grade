@@ -1,0 +1,2 @@
+Olá Mundo!
+Esse é um exemplo de gravação em arquivo.
